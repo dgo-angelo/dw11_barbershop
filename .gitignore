@@ -1,0 +1,44 @@
+# Miscellaneous
+/barbershop/*.class
+/barbershop/*.log
+/barbershop/*.pyc
+/barbershop/*.swp
+/barbershop/.DS_Store
+/barbershop/.atom/
+/barbershop/.buildlog/
+/barbershop/.history
+/barbershop/.svn/
+/barbershop/migrate_working_dir/
+
+# IntelliJ related
+/barbershop/*.iml
+/barbershop/*.ipr
+/barbershop/*.iws
+/barbershop/.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+/barbershop/**/doc/api/
+/barbershop/**/ios/Flutter/.last_build_id
+/barbershop/.dart_tool/
+/barbershop/.flutter-plugins
+/barbershop/.flutter-plugins-dependencies
+/barbershop/.packages
+/barbershop/.pub-cache/
+/barbershop/.pub/
+/barbershop//build/
+
+# Symbolication related
+/barbershop/app.*.symbols
+
+# Obfuscation related
+/barbershop/app.*.map.json
+
+# Android Studio will place build artifacts here
+/barbershop/android/app/debug
+/barbershop/android/app/profile
+/barbershop/android/app/release

@@ -1,0 +1,76 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "DW",
+            "email": "dw@dw.com",
+            "password": "123456",
+            "profile": "ADM"
+        },
+        {
+            "id": 2,
+            "name": "Colaborador",
+            "email": "colab@dw.com",
+            "password": "123456",
+            "barbershop_id": 1,
+            "profile": "EMPLOYEE",
+            "work_days": [
+                "Seg",
+                "Ter",
+                "Qua",
+                "Qui",
+                "Sex"
+            ],
+            "work_hours": [
+                6,
+                7,
+                8,
+                10,
+                9,
+                11,
+                14,
+                15,
+                16,
+                17
+            ]
+        }
+    ],
+    "adm_users": [],
+    "barbershop": [
+        {
+            "id": 1,
+            "user_id": "1",
+            "name": "Barbearia DW",
+            "email": "barbeariadw@dw.com",
+            "opening_days": [
+                "Seg",
+                "Ter",
+                "Qui",
+                "Qua",
+                "Sex"
+            ],
+            "opening_hours": [
+                6,
+                7,
+                8,
+                9,
+                10,
+                14,
+                11,
+                17,
+                15,
+                16
+            ]
+        }
+    ],
+    "schedules": [
+        {
+            "id": 1,
+            "barbershop_id": 1,
+            "user_id": 2,
+            "client_name": "Cliente 01",
+            "date": "2023-08-22T00:00:00.000Z",
+            "time": 14
+        }
+    ]
+}

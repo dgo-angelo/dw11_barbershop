@@ -95,8 +95,6 @@ Desenvolvimento de um aplicativo para agendamentos de uma barbearia.
 
 ![](./images/ver_agenda.png)
 
-##### Detalhes do Pedido
-![](./images/detalhes_pedidos.png)
 
 ## :gear: Pacotes Utilizados 
 
